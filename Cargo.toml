@@ -1,0 +1,18 @@
+[package]
+name = "hammad-tokens"
+version = "0.1.0"
+authors = ["raosahab14127 <eb20103109.raohammadali@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+cosmwasm-schema = "2.0.2"
+cosmwasm-std = "2.0.2"
+cw-utils = "2.0.0"
+cw2 = "2.0.0"
+cw20 = "2.0.0"
+cw20-base = {  version = "2.0.0", features = ["library"] }
+schemars = "0.8.19"
+serde = "1.0.200"
+use = "0.0.1-pre.0"
+[lib]
+crate-type = ["cdylib"]
